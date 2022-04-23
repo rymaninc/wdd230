@@ -1,15 +1,17 @@
 body {
-    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    background: linear-gradient(to right, #d5dbdf, #efd9af);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Times New Roman", sans-serif;
+    font-family: "Arial", sans-serif;
     letter-spacing: 0.03em;
 }
 
 h1 {
-    margin-top: 80px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 30px;
 }
 
 h2 {
@@ -17,23 +19,22 @@ h2 {
 }
 
 .page {
-    width: 600px;
+    width: 650px;
 }
 
 .head {
     display: grid;
     color: antiquewhite;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(6, 55, 82);
     border-radius: 1rem;
     box-shadow: 0 0 2rem #777;
     text-align: center;
     padding: 1rem;
-
 }
 
 .head:hover {
     color: rgb(10, 10, 10);
-    background-color: rgb(246, 240, 240);
+    background-color: rgb(221, 175, 125);
 }
 
 .image {
@@ -44,24 +45,21 @@ h2 {
 
 .name {
     grid-column: 2 / 3;
-   
 }
 
 p {
-
     text-align: center;
-
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(6, 55, 82);
     color: antiquewhite;
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0 0 2rem #777;
+    box-shadow: 0 0 2rem rgb(71, 69, 69);
 }
 
 footer:hover {
     color: rgb(10, 10, 10);
-    background-color: rgb(246, 240, 240);
+    background-color: rgb(221, 175, 125);
 }
