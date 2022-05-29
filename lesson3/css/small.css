@@ -20,10 +20,16 @@ footer {
 nav {
     flex: 1 1 auto;
   }
-  nav ul {
+
+nav ul {
     list-style: none;
     display: flex;
+}
+  nav ul li {
+    display: block;
     text-align: center;
+    flex: 1 1 auto;
+    padding: .8rem;
   }
   
   nav a {
@@ -31,6 +37,7 @@ nav {
     font-size: 1.2em;
     font-weight: normal;
     padding: 1em;
+    text-decoration: none;
   }
   
   nav a:hover {
@@ -83,7 +90,7 @@ header h2 {
 
 p {
     font-size: .9rem;
-    text-align: justify;
+    text-align: center;
     margin: 1rem;
     margin-top: .8rem;
 }
