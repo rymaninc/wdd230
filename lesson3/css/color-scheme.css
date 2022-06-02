@@ -1,0 +1,38 @@
+@media only screen and (min-width: 45em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .main-color {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: green;
+        color: white;
+    }
+    .secondary-color {
+        grid-column: 2;
+        grid-row: 1;
+        background-color: red;
+        color: white;
+    }
+    .paragraph-color {
+        grid-column: 3;
+        grid-row: 1;
+        background-color: white;
+        color: black;
+    }
+    .background-color {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: bisque;
+        color: black;
+    }
+    .observation-color {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: blue;
+        color: white;
+    }
+}
